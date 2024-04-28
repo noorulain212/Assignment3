@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_up">Sign up</string>
+    <string name="Exit">exit</string>
+    <string name="exit">Exit</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="no_account_yet">No Account Yet?</string>
+    <string name="add">Add item</string>
+    <string name="cancel">Cancel</string>
+    <string name="more">More</string>
+    <string name="item_information">Item Information</string>
+    <string name="url">URL</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="my_vault">My vault</string>
+    <string name="you">You</string>
+    <string name="search">Search</string>
+    <string name="types">Types</string>
+    <string name="card">Card</string>
+    <string name="_0">0</string>
+    <string name="_4">4</string>
+    <string name="identity">Identity</string>
+    <string name="secure_notes">Secure Notes</string>
+    <string name="folders">Folders</string>
+    <string name="_1">1</string>
+    <string name="no_folder">No Folder</string>
+    <string name="bin">Bin</string>
+    <string name="add_data">Add data</string>
+    <string name="click_to_log_out">Click to login</string>
+    <string name="lock">Lock</string>
+    <string name="send">Send</string>
+    <string name="generator">Generator</string>
+    <string name="settings">Settings</string>
+    <string name="back_arrow">Back arrow</string>
+    <string name="there_are_no_items_in_the_bin">The bin is empty!</string>
+    <string name="logins">Logins</string>
+    <string name="items">Items</string>
+
+</resources>

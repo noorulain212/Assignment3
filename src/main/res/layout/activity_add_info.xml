@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddInfo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#191919"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:text="Add Item"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:paddingStart="5dp"
+            tools:ignore="RtlSymmetry"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:background="@color/blue"
+            android:id="@+id/tvAdd"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="@string/cancel"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:id="@+id/tvCancel"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/more_vert_24px"
+            android:backgroundTint="#00FFFFFF"
+            app:tint="@color/white"
+            android:layout_margin="3dp"
+            android:contentDescription="@string/more" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#2C2C2C">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_information"
+                android:textSize="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:textColorHint="#939393"
+                android:layout_margin="5dp"
+                android:paddingVertical="20dp"
+                android:id="@+id/etUsername"
+                android:textColor="@color/white"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:textColorHint="#939393"
+                android:layout_margin="5dp"
+                android:paddingVertical="20dp"
+                android:id="@+id/etPassword"
+                android:textColor="@color/white"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/url"
+                android:textColorHint="#939393"
+                android:layout_margin="5dp"
+                android:paddingVertical="20dp"
+                android:id="@+id/etUrl"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
